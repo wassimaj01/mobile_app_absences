@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/whitebg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seance"
+        android:textSize="18dp"></TextView>
+
+    <RadioGroup
+        android:id="@+id/seance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RadioButton1"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="8-10"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton2"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:text="10-12"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton3"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:text="14-16"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton4"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="16-18"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date (Format : jj/mm/aaaa)"
+        android:inputType="text"/>
+
+
+    <EditText
+        android:id="@+id/penalite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Penalite"/>
+
+    <Spinner
+        android:id="@+id/etudiant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <Spinner
+        android:id="@+id/matiere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- Buttons for CRUD operations -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:backgroundTint="@color/greenanas"
+            android:text="Create" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:backgroundTint="@color/greenanas"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="121dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:backgroundTint="@color/greenanas"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+
+        <Button
+            android:id="@+id/show_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/blueeanas"
+            android:text="Details" />
+
+        <Button
+            android:id="@+id/contact_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:backgroundTint="@color/blueeanas"
+            android:text="Email" />
+    </LinearLayout>
+
+    <!-- Matiere list -->
+    <ListView
+        android:id="@+id/absences_listview"
+        android:layout_width="match_parent"
+        android:layout_height="386dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

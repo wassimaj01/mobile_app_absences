@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/whitebg2">
+
+    <!-- Title -->
+
+    <!-- Nom complet -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Completer votre profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="32dp"
+        />
+
+    <TextView
+        android:text="Nom complet"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/nomComplet"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- CIN -->
+    <TextView
+        android:text="CIN"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/CIN"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Numero tele -->
+    <TextView
+        android:text="Numero tele"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/numero"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Specialite -->
+    <TextView
+        android:text="Specialite"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/specialite"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/showprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voir votre profil"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/dashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Allez vers Dashboard"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

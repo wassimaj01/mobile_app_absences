@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/enseignant"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobile_app_absences"
+        tools:targetApi="31">
+        <activity
+            android:name=".ShowAbsenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MesMatieresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MesAbsencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbsenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowProfile2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Profile2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".EtudiantsDispoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".list_view1"
+            android:exported="false" />
+        <activity
+            android:name=".MatiereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompleteProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mobile_app_absences.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

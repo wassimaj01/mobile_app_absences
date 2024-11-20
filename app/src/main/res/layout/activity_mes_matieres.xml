@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_mat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes Matieres"
+        android:textSize="30dp"
+        android:layout_marginLeft="105dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/matt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="148dp"
+        android:src="@drawable/matieres"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/title_mat"/>
+    <ListView
+        android:id="@+id/mes_matieres_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:layout_below="@+id/matt"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

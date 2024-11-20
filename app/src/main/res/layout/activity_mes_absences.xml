@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/absabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes absences"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/abs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="148dp"
+        android:src="@drawable/abss"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/absabs"/>
+
+    <ListView
+        android:id="@+id/absences_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/justify_button"
+        android:choiceMode="singleChoice"
+        android:layout_below="@+id/abs"/>
+
+    <Button
+        android:id="@+id/justify_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentBottom="true"
+        android:text="Justify"
+        android:backgroundTint="@color/black"/>
+
+</RelativeLayout>

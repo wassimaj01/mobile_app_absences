@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowProfileActivity"
+    android:background="@drawable/whitebg2">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/enseignant"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="Nom Complet"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cin_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="CIN"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/phone_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:text="Numéro de téléphone"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/specialite_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="Specialité"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/name_textview"
+        android:background="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/cin_textview"
+        android:background="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/phone_textview"
+        android:background="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/specialite_textview"
+        android:background="@color/black"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Supprimer le profil"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/black"
+        />
+
+</RelativeLayout>
+</ScrollView>

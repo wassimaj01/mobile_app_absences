@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InscriptionActivity"
+    android:background="@drawable/whitebg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inscription des etudiants"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/register_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="145dp"
+        android:src="@drawable/register_etudiant"
+        android:layout_centerHorizontal="true"/>
+    <Spinner
+        android:id="@+id/comboetudiants"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"/>
+
+    <Spinner
+        android:id="@+id/combomatieres"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btninscrire"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="125dp"
+        android:text="Inscrire"
+        android:backgroundTint="@color/black"/>
+
+
+</LinearLayout>

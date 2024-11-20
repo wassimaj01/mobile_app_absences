@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="ESPACE ETUDIANT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="566dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="3"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnProfile2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Profile"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnMatiere2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Mes matieres"
+            android:backgroundTint="@android:color/holo_red_light"/>
+
+
+
+        <Button
+            android:id="@+id/mesabsences"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Mes absences"
+            android:backgroundTint="@android:color/holo_red_light"/>
+
+        <Button
+            android:id="@+id/btnAbout2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="About"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+        <Button
+            android:id="@+id/btnLogout2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Logout"
+            android:backgroundTint="@android:color/holo_blue_light"/>
+
+    </GridLayout>
+
+</LinearLayout>

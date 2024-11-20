@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mobile_app_absences</string>
+    <string name="app_description">Bienvenue dans notre application mobile de gestion des absences !
+
+Notre application est conçue pour simplifier la gestion des absences et faciliter le suivi de la présence des étudiants. Elle offre aux enseignants et aux administrateurs un moyen efficace de gérer les absences, de suivre les séances manquées et de justifier les absences des étudiants.
+
+Fonctionnalités principales de l application :
+- Gestion des utilisateurs : l application permet de créer et de gérer des comptes utilisateurs pour les enseignants et les étudiants, en enregistrant leurs informations personnelles.
+- Profils d utilisateur : les utilisateurs peuvent compléter leur profil en fournissant des informations supplémentaires telles que le nom complet, le numéro d étudiant, la spécialité, etc.
+- Gestion des matières : les enseignants peuvent ajouter et gérer les matières qu ils enseignent, en fournissant des détails tels que le nom de la matière, la catégorie et une description.
+- Inscription aux matières : les étudiants peuvent s inscrire aux matières proposées par les enseignants, ce qui facilite le suivi de leur emploi du temps.
+- Gestion des absences : les enseignants peuvent enregistrer les absences des étudiants lors des séances, en indiquant le nom de l étudiant, la matière, la date, etc. Les absences peuvent être justifiées et des pénalités peuvent être appliquées en cas d absence non justifiée.
+- Justification des absences : les étudiants peuvent soumettre des demandes de justification d absence, fournissant une explication valide pour leur absence. Les enseignants peuvent examiner ces demandes et prendre des décisions appropriées.
+- Suivi des absences : l application offre un suivi complet des absences, permettant aux utilisateurs de visualiser les absences passées, les absences justifiées, les pénalités appliquées, etc.
+
+Nous avons développé cette application avec simplicité et convivialité à l esprit, afin de garantir une expérience utilisateur fluide. Que vous soyez un enseignant souhaitant gérer les absences de vos étudiants ou un étudiant cherchant à suivre vos propres absences, notre application vous offre une solution pratique et efficace.
+
+Téléchargez dès maintenant notre application de gestion des absences et facilitez la gestion de votre présence !</string>
+
+</resources>

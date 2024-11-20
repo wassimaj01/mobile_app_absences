@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whitebg2">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completer votre profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <!-- Nom complet -->
+    <TextView
+        android:text="Nom complet"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/nomComplet2"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        />
+
+    <!-- CIN -->
+    <TextView
+        android:text="CNE"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/CIN2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Numero tele -->
+    <TextView
+        android:text="Numero tele"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/numero2"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Niveau scolaire -->
+    <TextView
+        android:text="Niveau scolaire"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/niveau_scolaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RadioButton1"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="1ère année bac"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton2"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="2ème année bac"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton3"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="3ème année bac"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <!-- Branche -->
+    <TextView
+        android:text="Branche"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/branche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RadioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tronc commun scientifique"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tronc commun littérature"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sciences expérimentales"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sciences mathématiques"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sciences physiques et chimiques"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/RadioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sciences mathématiques A"
+            android:textColor="@color/black" />
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit2"
+        android:text="Submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="110dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/showprofile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="20dp"
+        android:text="Voir votre profil"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dashboard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Allez vers Dashboard"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+</LinearLayout>
+</ScrollView>
